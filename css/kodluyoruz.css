@@ -1,0 +1,26 @@
+/* Açıklama Satırı */
+/************** Layout ***************/
+
+h2 {
+    text-align:center;
+    color: darkgoldenrod;
+    font-size: 65px;
+    text-transform: uppercase;
+    background-color: aqua;
+    opacity: 0.3;
+}
+p {
+    color: rgb(26, 26, 123);
+    font-size: 30px;
+}
+body {
+    background-color: rgb(225, 207, 223);
+    color: white;
+    font-family:'PT Serif', serif;
+
+    
+}
+ul {
+    color: blue;
+}
+  /**************** Card **************/
