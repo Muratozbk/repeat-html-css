@@ -1,26 +1,37 @@
 /* Açıklama Satırı */
 /************** Layout ***************/
-
-h2 {
-    text-align:center;
-    color: darkgoldenrod;
-    font-size: 65px;
-    text-transform: uppercase;
-    background-color: aqua;
-    opacity: 0.3;
+h1, h2, h3, h4, h5, h6 {
+    color: #404040;
 }
+
+h1 { 
+    font-size: 30px;   
+}
+
 p {
-    color: rgb(26, 26, 123);
+    font-size: 20px;
+}
+
+#first-article {
+    color: aqua;
+    font-size: 40px;
+}
+
+.text-red {
+    color: red;
+}
+.fs-14 {
+    font: size 14px; ;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-30 {
     font-size: 30px;
 }
-body {
-    background-color: rgb(225, 207, 223);
-    color: white;
-    font-family:'PT Serif', serif;
 
-    
-}
-ul {
-    color: blue;
+#third-article {
+    color: blueviolet;
+    font-size: 40px;
 }
   /**************** Card **************/
