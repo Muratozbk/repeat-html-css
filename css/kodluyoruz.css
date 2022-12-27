@@ -1,5 +1,38 @@
 /* Açıklama Satırı */
 /************** Layout ***************/
+/* css selectors */
+
+/* ul>li:first-child {
+color: green;
+}
+
+li:last-child {
+    color: aqua;
+} */
+
+input:focus {
+            background-color: yellow;
+        }
+   
+
+li:nth-child(3) {
+    color: blueviolet;
+}
+li:nth-child(2n) {
+    color: chartreuse;
+}
+.color-blue .fw-normal {
+   color: blue; 
+   font-weight: normal;
+   font-style: italic;
+}
+
+.color-red .ff-x {
+    color: red;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #404040;
 }
