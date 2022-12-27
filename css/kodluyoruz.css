@@ -1,7 +1,60 @@
 /* Açıklama Satırı */
 /************** Layout ***************/
 /* css selectors */
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.container {
+   margin-top: 50px;
+    width: 1000px;
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: left;
+    
+}
+
+.card { 
+    width: 20%;
+    float: left;
+    padding: 5%;
+    background-color: bisque;
+    margin-right: 3%;
+    border-radius: 20px;
+}
+
+.clear {
+    clear:both ;
+}
+
+.box {    
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.bg-red {
+    background-color: rgb(201, 124, 124);
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-yellow { 
+    background-color: yellow;
+}
 /* ul>li:first-child {
 color: green;
 }
@@ -10,7 +63,7 @@ li:last-child {
     color: aqua;
 } */
 
-input:focus {
+/* input:focus {
             background-color: yellow;
         }
    
@@ -66,5 +119,5 @@ p {
 #third-article {
     color: blueviolet;
     font-size: 40px;
-}
+} */
   /**************** Card **************/
